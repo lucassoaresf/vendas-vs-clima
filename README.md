@@ -50,7 +50,7 @@ Média de Vendas por Faixa de Temperatura
 ![Gráfico 1](./resultados/grafico1_media_vendas_por_faixa.png)
 
 Tendência de Vendas Semanais  
-![Gráfico 6](./resultados/grafico6_tendencia_vendas_semana.png)
+![Gráfico 6](./resultados/grafico5_tendencia_vendas_semana.png)
 
 ## ✍️ Autor
 

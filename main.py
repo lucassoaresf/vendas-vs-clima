@@ -8,8 +8,8 @@ output_dir = "resultados"
 os.makedirs(output_dir, exist_ok=True)
 
 # Leitura dos arquivos
-df_vendas = pd.read_csv("C:/Users/Lucas Soares/Documents/Tudo Vira Dados/Codigos/Vendas x Clima/Vendas_7dias.csv")
-df_clima = pd.read_csv("C:/Users/Lucas Soares/Documents/Tudo Vira Dados/Codigos/Vendas x Clima/Clima_7dias.csv")
+df_vendas = pd.read_csv("C:/Users/Lucas Soares/Documents/Tudo Vira Dados/Codigos/vendas-vs-clima/vendas-vs-clima/data/Vendas_7dias.csv")
+df_clima = pd.read_csv("C:/Users/Lucas Soares/Documents/Tudo Vira Dados/Codigos/vendas-vs-clima/vendas-vs-clima/data/Clima_7dias.csv")
 
 # Conversão de datas
 df_vendas["data"] = pd.to_datetime(df_vendas["data"])
@@ -29,14 +29,17 @@ df_merged["faixa_temp"] = pd.cut(
 media_por_faixa = df_merged.groupby("faixa_temp", observed=False)["vendas"].mean()
 correlacao = df_merged[["temperatura_media", "vendas"]].corr().iloc[0, 1]
 
-plt.figure(figsize=(8, 5))
-media_por_faixa.plot(kind="bar", color="#007ACC")
-plt.title(f"Média de Vendas por Faixa de Temperatura (Correlação: {correlacao:.2f})")
-plt.ylabel("Vendas Médias")
+plt.figure(figsize=(10, 5))
+media_por_faixa.plot(kind="line", marker="o", color="#FF7753", linewidth=3)
+plt.title(f"Média de Vendas por Faixa de Temperatura (Correlação: {correlacao:.2f})", fontsize=14, weight='bold')
 plt.xlabel("Faixa de Temperatura")
-plt.grid(axis="y")
+plt.ylabel("Vendas Médias")
+plt.grid(True, linestyle="--", alpha=0.3)
+plt.xticks(fontsize=11)
+plt.yticks(fontsize=11)
+sns.despine()
 plt.tight_layout()
-plt.savefig(f"{output_dir}/grafico1_media_vendas_por_faixa.png")
+plt.savefig("resultados/grafico1_vendas_linha_por_faixa_temp.png")
 plt.close()
 
 # Gráfico 2 – Percentual por Produto

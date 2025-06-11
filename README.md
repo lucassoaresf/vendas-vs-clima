@@ -47,7 +47,7 @@ Os gráficos serão gerados automaticamente na pasta `/resultados`.
 ## 📈 Exemplos de Gráficos Gerados
 
 Média de Vendas por Faixa de Temperatura  
-![Gráfico 1](./resultados/grafico1_media_vendas_por_faixa.png)
+![Gráfico 1](./resultados/grafico1_vendas_linha_por_faixa_temp.png)
 
 Tendência de Vendas Semanais  
 ![Gráfico 6](./resultados/grafico5_tendencia_vendas_semana.png)

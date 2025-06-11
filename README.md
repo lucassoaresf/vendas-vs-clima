@@ -54,5 +54,5 @@ Tendência de Vendas Semanais
 
 ## ✍️ Autor
 
-Feito com dedicação por [Lucas Soares](https://www.linkedin.com/in/seu-usuario)  
+Feito com dedicação por [Lucas Soares](https://www.linkedin.com/in/lucas-soares-ferreira/)  
 Este projeto faz parte da iniciativa **Tudo Vira Dados** para democratizar o conhecimento em tecnologia e dados.

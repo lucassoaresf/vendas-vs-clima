@@ -46,14 +46,15 @@ plt.close()
 vendas_por_faixa = df_merged.groupby(["faixa_temp", "produto"], observed=False)["vendas"].sum().unstack().fillna(0)
 vendas_percentuais = vendas_por_faixa.div(vendas_por_faixa.sum(axis=1), axis=0) * 100
 
-vendas_percentuais.plot(kind="bar", stacked=True, figsize=(10, 6), colormap="tab20")
-plt.title("Distribuição Percentual de Vendas por Produto em Cada Faixa")
-plt.ylabel("% de Vendas")
-plt.xlabel("Faixa de Temperatura")
-plt.xticks(rotation=0)
-plt.legend(title="Produto", bbox_to_anchor=(1.05, 1), loc="upper left")
+plt.figure(figsize=(12, 6))
+vendas_por_faixa.plot(kind="bar", figsize=(12, 6), edgecolor="black", colormap="Pastel1")
+plt.title("Vendas por Produto em Diferentes Faixas de Temperatura", fontsize=14, weight="bold")
+plt.xlabel("Produto")
+plt.ylabel("Vendas")
+plt.xticks(rotation=45)
+plt.legend(title="Faixa de Temperatura", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.tight_layout()
-plt.savefig(f"{output_dir}/grafico2_percentual_vendas_por_faixa.png")
+plt.savefig("resultados/grafico2_produto_x_faixa_temp_agrupado.png")
 plt.close()
 
 # Gráfico 3 – Boxplot Cidade x Produto

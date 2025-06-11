@@ -1,106 +1,106 @@
 data,cidade,produto,vendas
-2025-06-04,Recife,Casquinha Chocolate,81
-2025-06-04,Recife,Casquinha Baunilha,34
-2025-06-04,Recife,Picolé Limão,79
-2025-06-04,Recife,Milkshake Morango,32
-2025-06-04,Recife,Sundae Caramelo,55
-2025-06-04,Porto Alegre,Casquinha Chocolate,92
-2025-06-04,Porto Alegre,Casquinha Baunilha,26
-2025-06-04,Porto Alegre,Picolé Limão,82
-2025-06-04,Porto Alegre,Milkshake Morango,10
-2025-06-04,Porto Alegre,Sundae Caramelo,32
-2025-06-04,São Paulo,Casquinha Chocolate,77
-2025-06-04,São Paulo,Casquinha Baunilha,94
-2025-06-04,São Paulo,Picolé Limão,53
-2025-06-04,São Paulo,Milkshake Morango,46
-2025-06-04,São Paulo,Sundae Caramelo,67
-2025-06-05,Recife,Casquinha Chocolate,21
-2025-06-05,Recife,Casquinha Baunilha,100
-2025-06-05,Recife,Picolé Limão,28
-2025-06-05,Recife,Milkshake Morango,79
-2025-06-05,Recife,Sundae Caramelo,86
-2025-06-05,Porto Alegre,Casquinha Chocolate,88
-2025-06-05,Porto Alegre,Casquinha Baunilha,88
-2025-06-05,Porto Alegre,Picolé Limão,23
-2025-06-05,Porto Alegre,Milkshake Morango,68
-2025-06-05,Porto Alegre,Sundae Caramelo,59
-2025-06-05,São Paulo,Casquinha Chocolate,61
-2025-06-05,São Paulo,Casquinha Baunilha,95
-2025-06-05,São Paulo,Picolé Limão,32
-2025-06-05,São Paulo,Milkshake Morango,100
-2025-06-05,São Paulo,Sundae Caramelo,55
-2025-06-06,Recife,Casquinha Chocolate,61
-2025-06-06,Recife,Casquinha Baunilha,86
-2025-06-06,Recife,Picolé Limão,28
-2025-06-06,Recife,Milkshake Morango,27
-2025-06-06,Recife,Sundae Caramelo,18
-2025-06-06,Porto Alegre,Casquinha Chocolate,16
-2025-06-06,Porto Alegre,Casquinha Baunilha,58
-2025-06-06,Porto Alegre,Picolé Limão,52
-2025-06-06,Porto Alegre,Milkshake Morango,17
-2025-06-06,Porto Alegre,Sundae Caramelo,35
-2025-06-06,São Paulo,Casquinha Chocolate,28
-2025-06-06,São Paulo,Casquinha Baunilha,95
-2025-06-06,São Paulo,Picolé Limão,24
-2025-06-06,São Paulo,Milkshake Morango,62
-2025-06-06,São Paulo,Sundae Caramelo,11
-2025-06-07,Recife,Casquinha Chocolate,96
-2025-06-07,Recife,Casquinha Baunilha,47
-2025-06-07,Recife,Picolé Limão,33
-2025-06-07,Recife,Milkshake Morango,32
-2025-06-07,Recife,Sundae Caramelo,68
-2025-06-07,Porto Alegre,Casquinha Chocolate,56
-2025-06-07,Porto Alegre,Casquinha Baunilha,52
-2025-06-07,Porto Alegre,Picolé Limão,48
-2025-06-07,Porto Alegre,Milkshake Morango,81
+2025-06-05,São Paulo,Casquinha Baunilha,104
+2025-06-05,São Paulo,Casquinha Chocolate,109
+2025-06-05,São Paulo,Milkshake Morango,93
+2025-06-05,São Paulo,Picolé Limão,109
+2025-06-05,São Paulo,Sundae Caramelo,103
+2025-06-05,Porto Alegre,Casquinha Baunilha,76
+2025-06-05,Porto Alegre,Casquinha Chocolate,114
+2025-06-05,Porto Alegre,Milkshake Morango,107
+2025-06-05,Porto Alegre,Picolé Limão,85
+2025-06-05,Porto Alegre,Sundae Caramelo,118
+2025-06-05,Recife,Casquinha Baunilha,105
+2025-06-05,Recife,Casquinha Chocolate,145
+2025-06-05,Recife,Milkshake Morango,125
+2025-06-05,Recife,Picolé Limão,126
+2025-06-05,Recife,Sundae Caramelo,132
+2025-06-06,São Paulo,Casquinha Baunilha,132
+2025-06-06,São Paulo,Casquinha Chocolate,116
+2025-06-06,São Paulo,Milkshake Morango,128
+2025-06-06,São Paulo,Picolé Limão,100
+2025-06-06,São Paulo,Sundae Caramelo,126
+2025-06-06,Porto Alegre,Casquinha Baunilha,53
+2025-06-06,Porto Alegre,Casquinha Chocolate,65
+2025-06-06,Porto Alegre,Milkshake Morango,53
+2025-06-06,Porto Alegre,Picolé Limão,77
+2025-06-06,Porto Alegre,Sundae Caramelo,53
+2025-06-06,Recife,Casquinha Baunilha,122
+2025-06-06,Recife,Casquinha Chocolate,123
+2025-06-06,Recife,Milkshake Morango,101
+2025-06-06,Recife,Picolé Limão,134
+2025-06-06,Recife,Sundae Caramelo,91
+2025-06-07,São Paulo,Casquinha Baunilha,106
+2025-06-07,São Paulo,Casquinha Chocolate,132
+2025-06-07,São Paulo,Milkshake Morango,121
+2025-06-07,São Paulo,Picolé Limão,118
+2025-06-07,São Paulo,Sundae Caramelo,107
+2025-06-07,Porto Alegre,Casquinha Baunilha,58
+2025-06-07,Porto Alegre,Casquinha Chocolate,73
+2025-06-07,Porto Alegre,Milkshake Morango,55
+2025-06-07,Porto Alegre,Picolé Limão,64
 2025-06-07,Porto Alegre,Sundae Caramelo,69
-2025-06-07,São Paulo,Casquinha Chocolate,23
-2025-06-07,São Paulo,Casquinha Baunilha,80
-2025-06-07,São Paulo,Picolé Limão,56
-2025-06-07,São Paulo,Milkshake Morango,11
-2025-06-07,São Paulo,Sundae Caramelo,52
-2025-06-08,Recife,Casquinha Chocolate,36
-2025-06-08,Recife,Casquinha Baunilha,50
-2025-06-08,Recife,Picolé Limão,73
-2025-06-08,Recife,Milkshake Morango,78
-2025-06-08,Recife,Sundae Caramelo,94
-2025-06-08,Porto Alegre,Casquinha Chocolate,57
-2025-06-08,Porto Alegre,Casquinha Baunilha,63
-2025-06-08,Porto Alegre,Picolé Limão,94
-2025-06-08,Porto Alegre,Milkshake Morango,43
-2025-06-08,Porto Alegre,Sundae Caramelo,82
-2025-06-08,São Paulo,Casquinha Chocolate,18
-2025-06-08,São Paulo,Casquinha Baunilha,75
-2025-06-08,São Paulo,Picolé Limão,91
-2025-06-08,São Paulo,Milkshake Morango,44
-2025-06-08,São Paulo,Sundae Caramelo,43
-2025-06-09,Recife,Casquinha Chocolate,97
-2025-06-09,Recife,Casquinha Baunilha,88
-2025-06-09,Recife,Picolé Limão,83
-2025-06-09,Recife,Milkshake Morango,28
-2025-06-09,Recife,Sundae Caramelo,21
-2025-06-09,Porto Alegre,Casquinha Chocolate,74
-2025-06-09,Porto Alegre,Casquinha Baunilha,67
-2025-06-09,Porto Alegre,Picolé Limão,100
-2025-06-09,Porto Alegre,Milkshake Morango,94
-2025-06-09,Porto Alegre,Sundae Caramelo,18
-2025-06-09,São Paulo,Casquinha Chocolate,56
-2025-06-09,São Paulo,Casquinha Baunilha,26
-2025-06-09,São Paulo,Picolé Limão,75
-2025-06-09,São Paulo,Milkshake Morango,74
-2025-06-09,São Paulo,Sundae Caramelo,55
-2025-06-10,Recife,Casquinha Chocolate,91
-2025-06-10,Recife,Casquinha Baunilha,83
-2025-06-10,Recife,Picolé Limão,40
-2025-06-10,Recife,Milkshake Morango,40
-2025-06-10,Recife,Sundae Caramelo,65
-2025-06-10,Porto Alegre,Casquinha Chocolate,40
-2025-06-10,Porto Alegre,Casquinha Baunilha,81
-2025-06-10,Porto Alegre,Picolé Limão,95
-2025-06-10,Porto Alegre,Milkshake Morango,15
-2025-06-10,Porto Alegre,Sundae Caramelo,72
-2025-06-10,São Paulo,Casquinha Chocolate,40
-2025-06-10,São Paulo,Casquinha Baunilha,100
-2025-06-10,São Paulo,Picolé Limão,86
-2025-06-10,São Paulo,Milkshake Morango,77
-2025-06-10,São Paulo,Sundae Caramelo,39
+2025-06-07,Recife,Casquinha Baunilha,135
+2025-06-07,Recife,Casquinha Chocolate,127
+2025-06-07,Recife,Milkshake Morango,123
+2025-06-07,Recife,Picolé Limão,128
+2025-06-07,Recife,Sundae Caramelo,101
+2025-06-08,São Paulo,Casquinha Baunilha,117
+2025-06-08,São Paulo,Casquinha Chocolate,114
+2025-06-08,São Paulo,Milkshake Morango,92
+2025-06-08,São Paulo,Picolé Limão,105
+2025-06-08,São Paulo,Sundae Caramelo,98
+2025-06-08,Porto Alegre,Casquinha Baunilha,55
+2025-06-08,Porto Alegre,Casquinha Chocolate,56
+2025-06-08,Porto Alegre,Milkshake Morango,59
+2025-06-08,Porto Alegre,Picolé Limão,50
+2025-06-08,Porto Alegre,Sundae Caramelo,55
+2025-06-08,Recife,Casquinha Baunilha,124
+2025-06-08,Recife,Casquinha Chocolate,158
+2025-06-08,Recife,Milkshake Morango,148
+2025-06-08,Recife,Picolé Limão,108
+2025-06-08,Recife,Sundae Caramelo,120
+2025-06-09,São Paulo,Casquinha Baunilha,124
+2025-06-09,São Paulo,Casquinha Chocolate,112
+2025-06-09,São Paulo,Milkshake Morango,108
+2025-06-09,São Paulo,Picolé Limão,109
+2025-06-09,São Paulo,Sundae Caramelo,91
+2025-06-09,Porto Alegre,Casquinha Baunilha,60
+2025-06-09,Porto Alegre,Casquinha Chocolate,68
+2025-06-09,Porto Alegre,Milkshake Morango,58
+2025-06-09,Porto Alegre,Picolé Limão,68
+2025-06-09,Porto Alegre,Sundae Caramelo,83
+2025-06-09,Recife,Casquinha Baunilha,121
+2025-06-09,Recife,Casquinha Chocolate,124
+2025-06-09,Recife,Milkshake Morango,100
+2025-06-09,Recife,Picolé Limão,110
+2025-06-09,Recife,Sundae Caramelo,117
+2025-06-10,São Paulo,Casquinha Baunilha,87
+2025-06-10,São Paulo,Casquinha Chocolate,119
+2025-06-10,São Paulo,Milkshake Morango,124
+2025-06-10,São Paulo,Picolé Limão,89
+2025-06-10,São Paulo,Sundae Caramelo,141
+2025-06-10,Porto Alegre,Casquinha Baunilha,57
+2025-06-10,Porto Alegre,Casquinha Chocolate,46
+2025-06-10,Porto Alegre,Milkshake Morango,67
+2025-06-10,Porto Alegre,Picolé Limão,79
+2025-06-10,Porto Alegre,Sundae Caramelo,63
+2025-06-10,Recife,Casquinha Baunilha,159
+2025-06-10,Recife,Casquinha Chocolate,153
+2025-06-10,Recife,Milkshake Morango,138
+2025-06-10,Recife,Picolé Limão,113
+2025-06-10,Recife,Sundae Caramelo,152
+2025-06-11,São Paulo,Casquinha Baunilha,112
+2025-06-11,São Paulo,Casquinha Chocolate,115
+2025-06-11,São Paulo,Milkshake Morango,107
+2025-06-11,São Paulo,Picolé Limão,82
+2025-06-11,São Paulo,Sundae Caramelo,108
+2025-06-11,Porto Alegre,Casquinha Baunilha,73
+2025-06-11,Porto Alegre,Casquinha Chocolate,73
+2025-06-11,Porto Alegre,Milkshake Morango,48
+2025-06-11,Porto Alegre,Picolé Limão,79
+2025-06-11,Porto Alegre,Sundae Caramelo,53
+2025-06-11,Recife,Casquinha Baunilha,119
+2025-06-11,Recife,Casquinha Chocolate,146
+2025-06-11,Recife,Milkshake Morango,154
+2025-06-11,Recife,Picolé Limão,163
+2025-06-11,Recife,Sundae Caramelo,155

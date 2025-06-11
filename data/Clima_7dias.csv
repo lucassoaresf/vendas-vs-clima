@@ -1,22 +1,22 @@
-data,cidade,temperatura_media
-2025-06-04,Recife,30.8
-2025-06-04,Porto Alegre,13.8
-2025-06-04,São Paulo,24.3
-2025-06-05,Recife,31.7
-2025-06-05,Porto Alegre,16.5
-2025-06-05,São Paulo,19.4
-2025-06-06,Recife,27.8
-2025-06-06,Porto Alegre,15.6
-2025-06-06,São Paulo,19.5
-2025-06-07,Recife,31.2
-2025-06-07,Porto Alegre,18.9
-2025-06-07,São Paulo,24.2
-2025-06-08,Recife,27.3
-2025-06-08,Porto Alegre,13.9
-2025-06-08,São Paulo,20.2
-2025-06-09,Recife,29.1
-2025-06-09,Porto Alegre,17.2
-2025-06-09,São Paulo,21.2
-2025-06-10,Recife,29.2
-2025-06-10,Porto Alegre,18.3
-2025-06-10,São Paulo,18.7
+data,cidade,temperatura_media,clima
+2025-06-05,São Paulo,24.1,Agradável
+2025-06-05,Porto Alegre,22.1,Agradável
+2025-06-05,Recife,31.2,Muito Quente
+2025-06-06,São Paulo,27.7,Quente
+2025-06-06,Porto Alegre,15.3,Frio
+2025-06-06,Recife,26.6,Quente
+2025-06-07,São Paulo,28.5,Quente
+2025-06-07,Porto Alegre,17.2,Frio
+2025-06-07,Recife,26.3,Quente
+2025-06-08,São Paulo,20.4,Agradável
+2025-06-08,Porto Alegre,14.4,Frio
+2025-06-08,Recife,32.3,Muito Quente
+2025-06-09,São Paulo,24.0,Agradável
+2025-06-09,Porto Alegre,16.3,Frio
+2025-06-09,Recife,26.7,Quente
+2025-06-10,São Paulo,29.2,Quente
+2025-06-10,Porto Alegre,15.2,Frio
+2025-06-10,Recife,30.0,Muito Quente
+2025-06-11,São Paulo,22.0,Agradável
+2025-06-11,Porto Alegre,16.8,Frio
+2025-06-11,Recife,30.7,Muito Quente

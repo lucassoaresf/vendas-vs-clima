@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Criar a pasta de saída
-output_dir = "resultados"
+# Criar a pasta de saída (na pasta atual)
+output_dir = os.path.join(os.path.dirname(__file__), "resultados")
 os.makedirs(output_dir, exist_ok=True)
 
 # Leitura dos arquivos
@@ -39,22 +39,21 @@ plt.xticks(fontsize=11)
 plt.yticks(fontsize=11)
 sns.despine()
 plt.tight_layout()
-plt.savefig("resultados/grafico1_vendas_linha_por_faixa_temp.png")
+plt.savefig(os.path.join(output_dir, "grafico1_vendas_linha_por_faixa_temp.png"))
 plt.close()
 
-# Gráfico 2 – Percentual por Produto
+# Gráfico 2 – Vendas por Produto em Faixas
 vendas_por_faixa = df_merged.groupby(["faixa_temp", "produto"], observed=False)["vendas"].sum().unstack().fillna(0)
 vendas_percentuais = vendas_por_faixa.div(vendas_por_faixa.sum(axis=1), axis=0) * 100
 
-plt.figure(figsize=(12, 6))
 vendas_por_faixa.plot(kind="bar", figsize=(12, 6), edgecolor="black", colormap="Pastel1")
 plt.title("Vendas por Produto em Diferentes Faixas de Temperatura", fontsize=14, weight="bold")
-plt.xlabel("Produto")
+plt.xlabel("Faixa de Temperatura")
 plt.ylabel("Vendas")
-plt.xticks(rotation=45)
-plt.legend(title="Faixa de Temperatura", bbox_to_anchor=(1.05, 1), loc="upper left")
+plt.xticks(rotation=0)
+plt.legend(title="Produto", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.tight_layout()
-plt.savefig("resultados/grafico2_produto_x_faixa_temp_agrupado.png")
+plt.savefig(os.path.join(output_dir, "grafico2_produto_x_faixa_temp_agrupado.png"))
 plt.close()
 
 # Gráfico 3 – Boxplot Cidade x Produto
@@ -64,7 +63,7 @@ plt.title("Distribuição de Vendas por Cidade e Produto")
 plt.xlabel("Cidade")
 plt.ylabel("Vendas")
 plt.tight_layout()
-plt.savefig(f"{output_dir}/grafico3_boxplot_vendas_cidade_produto.png")
+plt.savefig(os.path.join(output_dir, "grafico3_boxplot_vendas_cidade_produto.png"))
 plt.close()
 
 # Gráfico 4 – Vendas Totais por Produto em Cada Cidade
@@ -76,7 +75,7 @@ plt.xlabel("Cidade")
 plt.xticks(rotation=0)
 plt.legend(title="Produto", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.tight_layout()
-plt.savefig(f"{output_dir}/grafico4_vendas_produto_por_cidade.png")
+plt.savefig(os.path.join(output_dir, "grafico4_vendas_produto_por_cidade.png"))
 plt.close()
 
 # Gráfico 5 – Tendência Semanal por Produto
@@ -88,5 +87,5 @@ plt.ylabel("Vendas")
 plt.xticks(rotation=45)
 plt.legend(title="Produto", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.tight_layout()
-plt.savefig(f"{output_dir}/grafico5_tendencia_vendas_semana.png")
+plt.savefig(os.path.join(output_dir, "grafico5_tendencia_vendas_semana.png"))
 plt.close()

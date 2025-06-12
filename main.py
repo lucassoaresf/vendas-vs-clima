@@ -28,7 +28,7 @@ df_merged["faixa_temp"] = pd.cut(
 # Exportar para CSV (com a nova coluna)
 df_merged.to_csv("C:/Users/Lucas Soares/Documents/Tudo Vira Dados/Codigos/vendas-vs-clima/vendas-vs-clima/data/dados_completos.csv", index=False)
 
-# Gráfico 1 – Média de Vendas por Faixa
+# Gráfico 1 – Média de Vendas por Faixa de Temperatura
 media_por_faixa = df_merged.groupby("faixa_temp", observed=False)["vendas"].mean()
 correlacao = df_merged[["temperatura_media", "vendas"]].corr().iloc[0, 1]
 
@@ -45,7 +45,7 @@ plt.tight_layout()
 plt.savefig(os.path.join(output_dir, "grafico1_vendas_linha_por_faixa_temp.png"))
 plt.close()
 
-# Gráfico 2 – Vendas por Produto em Faixas
+# Gráfico 2 – Vendas por Produto em Faixas de Temperatura
 vendas_por_faixa = df_merged.groupby(["faixa_temp", "produto"], observed=False)["vendas"].sum().unstack().fillna(0)
 vendas_percentuais = vendas_por_faixa.div(vendas_por_faixa.sum(axis=1), axis=0) * 100
 

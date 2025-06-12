@@ -20,10 +20,13 @@ df_merged = pd.merge(df_vendas, df_clima, on=["data", "cidade"])
 
 # Faixas de temperatura
 df_merged["faixa_temp"] = pd.cut(
-    df_merged["temperatura_media"],
+    df_merged["temperatura_media"], 
     bins=[0, 20, 25, 30, 40],
-    labels=["Frio", "Agradável", "Quente", "Muito Quente"]
+    labels=["<20°C", "20–25°C", "25–30°C", ">30°C"]
 )
+
+# Exportar para CSV (com a nova coluna)
+df_merged.to_csv("C:/Users/Lucas Soares/Documents/Tudo Vira Dados/Codigos/vendas-vs-clima/vendas-vs-clima/data/dados_completos.csv", index=False)
 
 # Gráfico 1 – Média de Vendas por Faixa
 media_por_faixa = df_merged.groupby("faixa_temp", observed=False)["vendas"].mean()
